@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet">
     <style>
         *{
             /*border: 1px solid   blue;*/
@@ -20,29 +23,6 @@
             background: linear-gradient( var(--dorado) , var(--negro));
         }
         
-        .img-price img {
-            width: 150px;
-            margin-top: 20px;
-            align-self: center;
-            border-radius: 100%;
-
-        }
-        .price{
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-        }
-        .img-price:hover{
-            box-shadow: 0px 0px 15px rgba(246,183,28);
-            cursor: pointer;
-            transform: scale(1.02);
-        }
-        .service-img{
-            display: flex;
-            justify-content: space-around;
-        }
         .footer{
             margin-top: 100px;
         }
@@ -120,6 +100,24 @@
                     </div>
                 </div>
                 
+            </div>
+        </section>
+        <section id="contacto" class="conteiner-contact">
+            <h2 class="localitation">Contacto</h2>
+            <div class="contact-map">
+                <h3 >Encontranos en:</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.2662008465786!2d-58.82730792473532!3d-27.460967516333877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b59c04d6fc3%3A0xabc1174f57a8630f!2sGdor.%20Lopez%20262%2C%20W3402%20Corrientes!5e0!3m2!1ses!2sar!4v1691533818886!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-form">
+                <h3>O completa el formulario para mas info:</h3>
+                <form action="" class="form">
+                    <label for="">Nombre y apellido</label>
+                    <input type="text" class="input">
+                    <label for="">Email</label>
+                    <input type="email" class="input">
+                    <label for="">Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10" class="input"></textarea>
+                </form>
             </div>
         </section>
     </main>

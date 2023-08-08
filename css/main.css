@@ -96,3 +96,70 @@
     gap: 25px;
     transition: .2s ease-in-out all;
 }
+.img-price img {
+    width: 150px;
+    margin-top: 20px;
+    align-self: center;
+    border-radius: 100%;
+}
+.price{
+    color: var(--titulo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.img-price:hover{
+    box-shadow: 0px 0px 15px var(--dorado);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.service-img{
+    display: flex;
+    justify-content: space-around;
+}
+/*Contacto*/
+.conteiner-contact{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    width: 55%;
+    gap: 20px;
+    color: var(--titulo);
+}
+.localitation{
+    text-align: center;
+}
+.contact-map{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+iframe{
+    width: 100%;
+    height: 350px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    background: var(--negro);
+    color: var(--titulo);
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    border: 3px solid var(--titulo);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+textarea{
+    resize: none;
+}
+.input{
+    border-radius: 10px;
+    padding: 5px 10px;
+}

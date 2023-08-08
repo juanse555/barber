@@ -18,8 +18,9 @@
 }
 .title {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: var(--titulo);
+    font-family:'Rock Salt', cursive;
 }
 /*Lista-ul*/
 .nav{
@@ -35,6 +36,7 @@
     font-weight: 500;
     color: var(--dorado);
     transition: 0.2s ease-in-out all;
+    font-family: cursive;
 }
 .nav-a:hover{
     text-decoration: underline;
