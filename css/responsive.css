@@ -1,0 +1,51 @@
+@media screen and (max-width: 415px){
+    .nav{
+        display: none;
+    }
+    .title{
+        font-size: 1.8rem;
+    }
+    .logo {
+        width: 50px;
+    }
+
+
+
+
+    .conteiner-hero{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .hero-info{
+        width: 100%;
+    }
+    .hero-img{
+        align-self: center;
+    }
+
+
+
+
+
+    .conteiner-info{
+        width: 90%;
+    }
+    .text {
+        width: 100%;
+    }
+
+
+    .service-img{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+
+    .conteiner-contact{
+        width: 90%;
+    }
+    .form{
+        width: 75%;
+    }
+}
