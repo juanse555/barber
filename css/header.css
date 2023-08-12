@@ -1,5 +1,7 @@
 
-
+.menu, .icon{
+    display: none;
+}
 .header {
     display: flex;
     background: var(--negro);

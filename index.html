@@ -10,10 +10,15 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="pages/ingreso.html">
     <link rel="stylesheet" href="pages/registro.html">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital@1&family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet">
+    
     <style>
         *{
             /*border: 1px solid   blue;*/
@@ -51,7 +56,7 @@
                 <label for="menu">
                     <img src="img/2.png" alt="icon" class="icon">
                 </label>
-                <input type="checkbox" id="menu">
+                <input type="checkbox" id="menu" class="menu">
                 <ul class="nav">
                     <li class="nav-li"><a href="#hero" class="nav-a">Home</a></li>
                     <li class="nav-li"><a href="#info" class="nav-a">About</a></li>
@@ -67,8 +72,8 @@
                 <h2 class="hero-title">Necesitas un buen corte y estilo?</h2>
                 <p class="parrafo">Veni a JCV The barber se ofrece experiencia garantizada a los clientes en las ultimas tendencias de moda y estilo, cortes clasicos, diseños, color, perfilado de barba, cejas. Exelente atención, comodidad y confianza </p>
                 <div class="hero-btn">
-                    <button class="btn"><a href="pages/ingreso.html">Reservar</a></button>
-                    <button class="btn dos"><a href="pages/registro.html">New Cliente</a></button>
+                    <button class="btn n"><a href="pages/ingreso.html" class="boton n">Reservar</a></button>
+                    <button class="btn dos am"><a href="pages/registro.html" class="boton cuatro am">New Cliente</a></button>
                 </div>
             </div>
             <div class="hero-img">
@@ -79,7 +84,7 @@
         <section  class="conteiner-info">
             <div class="text">
                 <h2 class="text-title">Sobre el local</h2>
-                <p>La barberia se abrio en 2015 por un hoby que termino siendo una pasion y satisfacion al dejar a los clientes contentos por sus nuevos looks y la confianza que tienen el dia a dia a este local</p>
+                <p class="parrafo">La barberia se abrio en 2011 por un hoby que termino siendo una pasion y satisfacion al dejar a los clientes contentos por sus nuevos looks y la confianza que tienen el dia a dia a este local</p>
             </div>
         </section>
         <hr id="servicio">
@@ -90,10 +95,10 @@
                     <img src="img/cabello.jpg" alt="corte">
                     <div class="price">
                         <div class="style">
-                            <span>Corte</span>
+                            <span class="ofrecido">Corte</span>
                         </div>
                         <div class="style-price">
-                            <span>$1500</span>
+                            <span class="ofrecido">$1500</span>
                         </div>
                     </div>
                 </div>
@@ -101,10 +106,10 @@
                     <img src="img/barba.jpg" alt="barba">
                     <div class="price">
                         <div class="style">
-                            <span>Barba</span>
+                            <span class="ofrecido">Barba</span>
                         </div>
                         <div class="style-price">
-                            <span>$800</span>
+                            <span class="ofrecido">$800</span>
                         </div>
                     </div>
                 </div>
@@ -112,10 +117,10 @@
                     <img src="img/cabello+barba.jpg" alt="combo">
                     <div class="price">
                         <div class="style">
-                            <span>Corte + Barba + Cejas</span>
+                            <span class="ofrecido">Corte + Barba + Cejas</span>
                         </div>
                         <div class="style-price">
-                            <span>$2000</span>
+                            <span class="ofrecido">$2000</span>
                         </div>
                     </div>
                 </div>
@@ -132,12 +137,12 @@
             <div class="contact-form">
                 <h3>O completa el formulario para mas info:</h3>
                 <form action="" class="form">
-                    <label for="">Nombre y apellido</label>
-                    <input type="text" class="input">
-                    <label for="">Email</label>
-                    <input type="email" class="input">
-                    <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10" class="input"></textarea>
+                    <label for="nombre" class="caja">Nombre y apellido</label>
+                    <input type="text" class="input" id="nombre">
+                    <label for="email" class="caja">Email</label>
+                    <input type="email" class="input" id="email">
+                    <label for="box" class="caja">Mensaje</label>
+                    <textarea name="" id="box" cols="30" rows="10" class="input"></textarea>
                 </form>
             </div>
         </section>

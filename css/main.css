@@ -42,17 +42,40 @@
     box-shadow: 0px 0px 15px var(--dorado);
 }
 .btn {
-    width: 100px;
-    padding: 5px;
+    width: 150px;
     border-style: none;
     border-radius: 7px;
     background: var(--negro);
     color: var(--titulo);
     border: 3px solid   var(--titulo);
+    cursor: pointer;
+    padding: 5px 0;
+    box-shadow: 2px 2px 10px var(--dorado);
 }
 .dos{
     background: var(--dorado);
     color: var(--negro);
+    cursor: pointer;
+}
+
+.boton {
+    text-decoration: none;
+    color: var(--titulo);
+    padding: 5px 24px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.cuatro {
+    color: var(--negro);
+}
+.n:hover{
+    background: var(--dorado);
+
+    color: var(--negro);
+}
+.am:hover{
+    background: var(--negro);
+    color: var(--titulo);
 }
 .conteiner-info{
     margin-top: 100px;
@@ -111,6 +134,10 @@
     align-self: center;
     border-radius: 100%;
 }
+.ofrecido{
+    font-size: 1.4rem;
+    font-family: cursive;
+}
 .price{
     color: var(--titulo);
     display: flex;
@@ -138,6 +165,9 @@
 }
 .localitation{
     text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    text-decoration: underline;
 }
 .contact-map{
     display: flex;
@@ -171,4 +201,17 @@ textarea{
 .input{
     border-radius: 10px;
     padding: 5px 10px;
+    font-size: 18px;
+}
+.caja{
+    font-family: cursive;
+    font-size: 18px;
+}
+h3{
+    font-family: cursive;
+    font-size: 20px;
+}
+.parrafo{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
