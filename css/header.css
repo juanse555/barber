@@ -2,10 +2,11 @@
 
 .header {
     display: flex;
-    background-color: var(--negro);
+    background: linear-gradient(to bottom, rgb(18, 18, 18), var(--negro) , var(--dorado));
     justify-content: space-between;
     padding: 0 25px;
     align-items: center;
+    box-shadow: 2px 0px 15px black;
 }
 .boxprimary {
     display: flex;
