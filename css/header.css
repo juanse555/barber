@@ -43,3 +43,7 @@
     text-decoration: underline;
     color: var(--titulo);
 }
+
+.responsive{
+    display: none;
+}
