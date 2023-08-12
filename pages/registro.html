@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-    <link rel="stylesheet" href="../index.html">
+    <title>Ingreso</title>
+    <link rel="icon" href="img/IMG-20230725-WA0003.jpg">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="ingreso.html">
+    <link rel="stylesheet" href="pages/ingreso.html">
+    <link rel="stylesheet" href="pages/registro.html">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital@1&family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet">
     <style>
         :root{
             --dorado :rgb(246,183,28);
             --negro: rgb(10, 12, 27);
             --titulo: rgb(207, 207, 207);
         }
+        body{
+            background: linear-gradient( var(--dorado) , var(--negro));
+        }
     </style>
 </head>
 <body>
+    <hr id="hero">
     <header class="fix">
         <div class="header">
             <div class="boxprimary">
@@ -26,6 +39,10 @@
                 <h1 class="title">JCV The Barber</h1>
             </div>
             <nav>
+                <label for="menu">
+                    <img src="../img/2.png" alt="icon" class="icon">
+                </label>
+                <input type="checkbox" id="menu" class="menu">
                 <ul class="nav">
                     <li class="nav-li"><a href="#hero" class="nav-a">Home</a></li>
                     <li class="nav-li"><a href="#info" class="nav-a">About</a></li>
@@ -35,5 +52,12 @@
             </nav>
         </div>
     </header>
+
+
+
+
+    <footer class="footer">
+        <span>Desarrollador: &copy;Juan Pavón - 2023</span><span>Colaboracion con: &copy;JCV The Barber - 2011</span>
+    </footer>
 </body>
 </html>
