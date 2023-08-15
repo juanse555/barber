@@ -84,4 +84,8 @@
     .form{
         width: 75%;
     }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
 }

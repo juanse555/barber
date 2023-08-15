@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="pages/ingreso.html">
     <link rel="stylesheet" href="pages/registro.html">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/regis.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Zen+Dots&display=swap" rel="stylesheet">
@@ -28,6 +29,8 @@
         body{
             background: linear-gradient( var(--dorado) , var(--negro));
         }
+
+
     </style>
 </head>
 <body>
@@ -54,6 +57,31 @@
     </header>
 
 
+    <main class="body">
+        <h2>Registro</h2>
+        <div class="body-ingreso">
+            <form action="" class="formulario">
+                <div class="input">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" placeholder="Usuario" class="input-a" id="usuario">
+                </div>
+                <div class="input">
+                    <label for="pass">Contraseña</label>
+                    <input type="password" class="input-a" id="pass" placeholder="Contraseña">
+                </div>
+                <div class="input">
+                    <label for=email"">Correo</label>
+                    <input type="email" class="input-a" id="email" placeholder="Correo">
+                </div>
+                <div class="input b">
+                    <input type="checkbox">
+                    <span>Acepto terminos y condiciones</span>
+                </div>
+                <button>Ingresar</button>
+                <a href="ingreso.html">Ya tenes cuenta? Ingresa</a>
+            </form>
+        </div>
+    </main>
 
 
     <footer class="footer">
